@@ -1,0 +1,2 @@
+import Shell from '@/app/ui/Shell'
+export default function Notifications(){return <Shell title="Notifications"><div className="card"><div className="list"><div><strong>Membership verification</strong><span>Your document verification is pending review.</span><small>Today</small></div><div><strong>New circular</strong><span>Association Circular 2026-09 is available.</span><small>2 days ago</small></div><div><strong>Welfare update</strong><span>Your welfare request has moved to committee review.</span><small>4 days ago</small></div></div></div></Shell>}
