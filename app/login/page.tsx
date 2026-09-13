@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function Login(){return <main className="auth-page"><div className="auth-card"><div className="logo large">G</div><h1>GTDOA Login</h1><p className="muted">Member and administration access</p><form className="form-grid"><label>Mobile / Username<input required/></label><label>Password / OTP<input type="password" required/></label><button className="btn primary" type="submit">Sign In</button></form><div className="auth-links"><Link href="/membership">New member? Apply</Link><Link href="/">Back to website</Link></div></div></main>}
