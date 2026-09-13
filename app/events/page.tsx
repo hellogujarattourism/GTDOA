@@ -1,0 +1,2 @@
+import Shell from '@/app/ui/Shell'
+export default function Events(){return <Shell title="Events & Meetings"><div className="grid"><div className="card"><span className="eyebrow">20 SEP 2026</span><h2>District Members Meeting</h2><p className="muted">Ahmedabad • 11:00 AM</p><button className="btn primary">Register</button></div><div className="card"><span className="eyebrow">05 OCT 2026</span><h2>Driver Welfare Camp</h2><p className="muted">Venue and registration details will be published.</p><button className="btn primary">Details</button></div></div></Shell>}
