@@ -1,0 +1,4 @@
+import Shell from '@/app/ui/Shell'
+import Link from 'next/link'
+import {stats} from '@/app/lib/modules'
+export default function Member(){return <Shell title="Member Portal"><div className="stats">{stats.map(([a,b])=><div className="stat" key={a}><strong>{b}</strong><span>{a}</span></div>)}</div><div className="grid"><div className="card"><h3>My Profile</h3><p className="muted">Personal details, membership status and verification.</p><Link href="/membership">View profile →</Link></div><div className="card"><h3>My Digital ID</h3><p className="muted">Open your digital card and QR verification.</p><Link href="/digital-id">Open Digital ID →</Link></div><div className="card"><h3>My Vehicles</h3><p className="muted">Vehicle details and document expiry.</p><Link href="/vehicles">Manage vehicles →</Link></div><div className="card"><h3>Support</h3><p className="muted">Complaints and welfare requests.</p><Link href="/complaints">Get support →</Link></div></div></Shell>}
